@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Infinitesimal Assignment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    
+    
+</head>
+<body>
+    <div class="overlay" style="display: none">
+        <div class="popup">
+            <h3>Edit Product</h3>
+            <form class="popup-form">
+                <input type="text" name="" id="" placeholder="Field 1">
+                <input type="text" name="" id="" placeholder="Field 1">
+                <input type="text" name="" id="" placeholder="Field 1">
+                <button type="button" class="popup-btn">Submit</button>
+                <button type="button" class="popup-btn">Cancel</button>
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <div class="header">
+            <div class="header-container clear-fix">
+                <div class="logo-div">
+                    <i class="fab fa-adn"></i> 
+                    <span class="company-name">Infinitesimal</span>
+                </div>
+                <div class="menu-div">
+                    <i class="fas fa-bars"></i>
+                    <span>Menu</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="main-content">
+            <div class="menu">
+                <div class="form-container">
+                    <h3>Section 1</h3>
+                    <div class="radios">
+                        <form id="radios-form">
+                            <input type="checkbox" id="option1" name="option1" value="1" data-cc="sp1" checked> <span id="sp1">Option 1</span><br>
+                            <input type="checkbox" id="option2" name="option2" value="2" data-cc="sp2" checked> <span id="sp2">Option 2</span><br>
+                            <input type="checkbox" id="option3" name="option3" value="3" data-cc="sp3" checked> <span id="sp3">Option 3</span>  <br>
+                            <input type="checkbox" id="option4" name="option4" value="4" data-cc="sp4"> <span id="sp4">Option 4</span>
+                        </form>
+                    </div>
+                    <hr>
+                    <h3>Section 2</h3>
+                    <div class="radios">
+                        <form>
+                            <input type="range" name="range" id="range" min="0" max="10000" step="2500">
+                        </form>
+                        <p>Selected Range: 0 to <span id="selected-range">5000</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div id="scrollable-div">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="fontawesome/svg-with-js/js/fontawesome.min.js"></script>
+    <script src="main.js"></script>
+</html>

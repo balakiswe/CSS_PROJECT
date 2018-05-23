@@ -1,0 +1,155 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+
+.header {
+    background-color: darkgray;
+    height: 4vh;
+    width: 100vw;
+    padding: 20px;
+    position: fixed;
+    z-index: 999;
+}
+
+.main-content {
+    display: block;
+    background-color: slategray;
+    width: 100%;
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+    height: 100vh;
+    overflow: hidden;
+    width: 40%;
+    background-color: aliceblue;
+    z-index: 0;
+}
+
+.content {
+    float: right;
+    width: 60%;
+    overflow: scroll;
+    max-height: 100vh;
+}
+
+.header-container {
+    width: calc(100vw - 40px);
+    height: calc(4vh - 40px);
+    font-size: 26px;
+}
+
+.logo-div, .menu-div {
+    display: inline-block;
+}
+
+.logo-div{
+    float: left;
+}
+
+.menu-div {
+    float: right;
+}
+
+.clear-fix{
+    display: table;
+    height: auto;
+    clear: both;
+}
+
+.form-container {
+    padding-top: 16vh;
+    margin-left: 30px;
+}
+
+#scrollable-div{
+    max-height: 100%;
+    overflow: scroll;
+    /*padding: 60px 30px 20px;*/
+    
+}
+
+.product{
+    position: relative;
+    padding: 0px 10px 20px;
+    background-color: whitesmoke;
+    margin: 20px;
+    border-radius: 6px;
+    border: 1px solid grey;
+}
+
+.edit-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 30px;
+    padding: 5px 10px;
+    background: cadetblue;
+    border: 1px solid transparent;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.overlay{
+    z-index: 9999;
+    min-width: 100vw;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.popup {
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 5px 4px 8px black;
+    width: 40vw;
+    height: 40vh;
+    transform: translate(70%, 50%);
+    text-align: center;
+    padding: 10px;
+}
+
+.popup form{
+    margin: 20px;
+    padding: 10px;
+}
+
+.popup input{
+    display: block;
+    width: 80%;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.popup button{
+    height: 30px;
+    padding: 5px 10px;
+    background: cadetblue;
+    border: 1px solid transparent;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#sp1, #sp2, #sp3 {
+    color: green;
+}
+
+
+
+
