@@ -41,11 +41,11 @@ $('document').ready(function() {
         _html += '<strong>Title: </strong>';
         _html += val.price;
         _html += '<br>';
-        _html += '<button type="button" class="edit-btn">Edit</button>'
+        _html += '<button type="button" class="edit-btn">Edit</button>';
         _html += '</div>';
         _html += '</div>';
         $('#scrollable-div').html($('#scrollable-div').html() + _html);
-    })
+    });
 
     $('#option1, #option2, #option3').click(function() {
         $(this).prop('checked', true);
@@ -69,9 +69,9 @@ $('document').ready(function() {
 
     $('#range').change(function() {
         $('#selected-range').html($(this).val());
-    })
+    });
 
-})
+});
 
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
@@ -90,4 +90,4 @@ window.onclick = function(event) {
             }
         }
     }
-}
+};
